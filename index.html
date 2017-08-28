@@ -3,14 +3,21 @@
 <meta charset="UTF-8">
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
-<style class="cp-pen-styles">
+<style>
 body {
-  background: #bbb;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
+
+  background: -webkit-linear-gradient(left, rgb(116, 116, 191), rgb(52, 138, 199));
+  background: -o-linear-gradient(right, rgb(116, 116, 191), rgb(52, 138, 199));
+  background: -moz-linear-gradient(right, rgb(116, 116, 191), rgb(52, 138, 199));
+  background: linear-gradient(to right, rgb(116, 116, 191), rgb(52, 138, 199));
+  background: linear-gradient(to right, rgb(116, 116, 191), rgb(52, 138, 199))
 }
 
 .wrapper {
@@ -255,6 +262,16 @@ body {
     transform: translateY(3.75em) translateX(10.38675em) rotate(300deg) skewX(30deg) scale(1);
   }
 }
+
+.wh-wrapper {
+  padding-top: 3rem;
+  text-align: center;
+
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: "Courier New";
+  color: red;
+}
 </style>
 </head>
 <body>
@@ -275,6 +292,9 @@ body {
       <div class="petal"></div>
     </div>
     <div class="core"></div>
+  </div>
+  <div class="wh-wrapper">
+    <div>七夕快乐！么么哒😘</div>
   </div>
 </div>
 </body>
